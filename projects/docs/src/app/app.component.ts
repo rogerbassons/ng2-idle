@@ -1,7 +1,7 @@
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { Idle, DEFAULT_INTERRUPTSOURCES } from '@ng-idle/core';
-import { Keepalive } from '@ng-idle/keepalive';
+import { Idle, DEFAULT_INTERRUPTSOURCES } from '@rogerbassons/idle-core';
+import { Keepalive } from '@rogerbassons/idle-keepalive';
 
 @Component({
   selector: 'app-root',

@@ -3,58 +3,58 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "core": {
+    "idle-core": {
       "projectType": "library",
-      "root": "projects/core",
-      "sourceRoot": "projects/core/src",
+      "root": "projects/idle-core",
+      "sourceRoot": "projects/idle-core/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/core/tsconfig.lib.json",
-            "project": "projects/core/ng-package.json"
+            "tsConfig": "projects/idle-core/tsconfig.lib.json",
+            "project": "projects/idle-core/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/core/tsconfig.lib.prod.json"
+              "tsConfig": "projects/idle-core/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/core/src/test.ts",
-            "tsConfig": "projects/core/tsconfig.spec.json",
-            "karmaConfig": "projects/core/karma.conf.js"
+            "main": "projects/idle-core/src/test.ts",
+            "tsConfig": "projects/idle-core/tsconfig.spec.json",
+            "karmaConfig": "projects/idle-core/karma.conf.js"
           }
         }
       }
     },
-    "keepalive": {
+    "idle-keepalive": {
       "projectType": "library",
-      "root": "projects/keepalive",
-      "sourceRoot": "projects/keepalive/src",
+      "root": "projects/idle-keepalive",
+      "sourceRoot": "projects/idle-keepalive/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/keepalive/tsconfig.lib.json",
-            "project": "projects/keepalive/ng-package.json"
+            "tsConfig": "projects/idle-keepalive/tsconfig.lib.json",
+            "project": "projects/idle-keepalive/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/keepalive/tsconfig.lib.prod.json"
+              "tsConfig": "projects/idle-keepalive/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/keepalive/src/test.ts",
-            "tsConfig": "projects/keepalive/tsconfig.spec.json",
-            "karmaConfig": "projects/keepalive/karma.conf.js"
+            "main": "projects/idle-keepalive/src/test.ts",
+            "tsConfig": "projects/idle-keepalive/tsconfig.spec.json",
+            "karmaConfig": "projects/idle-keepalive/karma.conf.js"
           }
         }
       }
@@ -160,5 +160,5 @@
         }
       }
     }},
-  "defaultProject": "core"
+  "defaultProject": "idle-core"
 }

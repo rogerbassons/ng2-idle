@@ -8,8 +8,8 @@ const updateProject = project => {
   const pkg = JSON.parse(fs.readFileSync(dest));
   let changed = false;
 
-  if (project === 'keepalive') {
-    pkg.peerDependencies['@ng-idle/core'] = '^' + lerna.version;
+  if (project === 'idle-keepalive') {
+    pkg.peerDependencies['@rogerbassons/idle-core'] = '^' + lerna.version;
     changed = true;
   }
 
