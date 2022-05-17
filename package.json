@@ -4,14 +4,14 @@
   "version": "11.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moribvndvs/ng2-idle.git"
+    "url": "git+https://github.com/rogerbassons/ng2-idle.git"
   },
   "author": "Ng-Idle Team",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/moribvndvs/ng2-idle.git/issues"
+    "url": "https://github.com/rogerbassons/ng2-idle.git/issues"
   },
-  "homepage": "https://github.com/moribvndvs/ng2-idle.git#readme",
+  "homepage": "https://github.com/rogerbassons/ng2-idle.git#readme",
   "private": true,
   "scripts": {
     "clean:coverage": "rimraf coverage",
